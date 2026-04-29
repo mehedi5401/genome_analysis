@@ -1,12 +1,12 @@
-!/bin/bash -l
-SBATCH -A uppmax2026-1-61
-SBATCH -p pelle
-SBATCH -c 4
-SBATCH --mem=32G
-SBATCH -t 12:00:00
-SBATCH -J pacbio_assembly
-SBATCH --mail-type=ALL
-SBATCH --output=%x.%j.out
+# !/bin/bash -l
+# SBATCH -A uppmax2026-1-61
+# SBATCH -p pelle
+# SBATCH -c 4
+# SBATCH --mem=32G
+# SBATCH -t 12:00:00
+# SBATCH -J pacbio_assembly
+# SBATCH --mail-type=ALL
+# SBATCH --output=%x.%j.out
 
 # Load modules
 module load canu/2.3
